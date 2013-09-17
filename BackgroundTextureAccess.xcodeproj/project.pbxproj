@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1513A41515F516B000EB307D /* BTAParentViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1513A41415F516B000EB307D /* BTAParentViewController.mm */; };
+		1519B6DD16033AF700364066 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1519B6DC16033AF700364066 /* Default-Portrait@2x~ipad.png */; };
+		1519B6DE16033BBD00364066 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D674E714D051D5003D8330 /* Default@2x.png */; };
+		1519B6E016033D6E00364066 /* app_icon_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1519B6DF16033D6E00364066 /* app_icon_iPhone@2x.png */; };
+		1519B6E216033D7100364066 /* app_icon_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1519B6E116033D7100364066 /* app_icon_iPad@2x.png */; };
+		1526F69716380769006408F8 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1526F69616380769006408F8 /* Default-Landscape~ipad.png */; };
+		1526F69A1638076D006408F8 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1526F6991638076D006408F8 /* Default-Landscape@2x~ipad.png */; };
+		154DE585160339F000D18F92 /* app_icon_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 154DE584160339F000D18F92 /* app_icon_iPhone.png */; };
+		154DE58A16033A0900D18F92 /* app_icon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 154DE58916033A0900D18F92 /* app_icon_iPad.png */; };
+		15CE85B416415F21005AE890 /* AR_EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CE85A216415F21005AE890 /* AR_EAGLView.mm */; };
+		15CE85B516415F21005AE890 /* ARParentViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CE85A416415F21005AE890 /* ARParentViewController.mm */; };
+		15CE85B616415F21005AE890 /* ARViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CE85A616415F21005AE890 /* ARViewController.mm */; };
+		15CE85B716415F21005AE890 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CE85A816415F21005AE890 /* OverlayView.m */; };
+		15CE85B816415F21005AE890 /* OverlayViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CE85AA16415F21005AE890 /* OverlayViewController.mm */; };
+		15CE85B916415F21005AE890 /* QCARutils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CE85AC16415F21005AE890 /* QCARutils.mm */; };
+		15CE85BC16415F21005AE890 /* ShaderUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15CE85B016415F21005AE890 /* ShaderUtils.cpp */; };
+		15CE85BD16415F21005AE890 /* Texture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CE85B316415F21005AE890 /* Texture.mm */; };
+		15DF68F214517A9A00120640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DF68F114517A9A00120640 /* UIKit.framework */; };
+		15DF68F414517A9A00120640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DF68F314517A9A00120640 /* Foundation.framework */; };
+		15DF68F614517A9A00120640 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DF68F514517A9A00120640 /* CoreGraphics.framework */; };
+		15DF68F814517A9A00120640 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DF68F714517A9A00120640 /* QuartzCore.framework */; };
+		15DF68FA14517A9A00120640 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DF68F914517A9A00120640 /* OpenGLES.framework */; };
+		15DF690314517A9A00120640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DF690214517A9A00120640 /* main.m */; };
+		15DF690614517A9A00120640 /* BackgroundTextureAccessAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15DF690514517A9A00120640 /* BackgroundTextureAccessAppDelegate.mm */; };
+		15E9279A161F3F6800D24BBE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E92799161F3F6800D24BBE /* Default-568h@2x.png */; };
+		15F18A02145EEF520026C8D5 /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F18A01145EEF520026C8D5 /* libQCAR.a */; };
+		15F18A08145EF7CF0026C8D5 /* Tarmac.dat in Resources */ = {isa = PBXBuildFile; fileRef = 15F18A05145EF7CF0026C8D5 /* Tarmac.dat */; };
+		15F18A09145EF7CF0026C8D5 /* Tarmac.xml in Resources */ = {isa = PBXBuildFile; fileRef = 15F18A06145EF7CF0026C8D5 /* Tarmac.xml */; };
+		15F18A0A145EF7CF0026C8D5 /* TextureTeapotRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F18A07145EF7CF0026C8D5 /* TextureTeapotRed.png */; };
+		15F21A37145EE46C00C903EC /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15F21A36145EE46C00C903EC /* EAGLView.mm */; };
+		15F21A39145EE4CE00C903EC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F21A38145EE4CE00C903EC /* CoreMedia.framework */; };
+		15F21A3B145EE4D800C903EC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F21A3A145EE4D800C903EC /* SystemConfiguration.framework */; };
+		15F21A3D145EE4DF00C903EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F21A3C145EE4DF00C903EC /* AVFoundation.framework */; };
+		15F21A3F145EE4E700C903EC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F21A3E145EE4E700C903EC /* CoreVideo.framework */; };
+		15F21A41145EE4F100C903EC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F21A40145EE4F100C903EC /* Security.framework */; };
+		76D674E614D051AE003D8330 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D674E514D051AE003D8330 /* Default.png */; };
+		76D674EC14D051F0003D8330 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D674EB14D051F0003D8330 /* Default-Portrait~ipad.png */; };
+		AA144AEE150680AE0024DAF1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA144AED150680AE0024DAF1 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1513A41415F516B000EB307D /* BTAParentViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BTAParentViewController.mm; sourceTree = "<group>"; };
+		1519B6DC16033AF700364066 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		1519B6DF16033D6E00364066 /* app_icon_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon_iPhone@2x.png"; sourceTree = "<group>"; };
+		1519B6E116033D7100364066 /* app_icon_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon_iPad@2x.png"; sourceTree = "<group>"; };
+		1526F69616380769006408F8 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		1526F6991638076D006408F8 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		154DE584160339F000D18F92 /* app_icon_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_iPhone.png; sourceTree = "<group>"; };
+		154DE58916033A0900D18F92 /* app_icon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_iPad.png; sourceTree = "<group>"; };
+		15CE859C16415E66005AE890 /* BGShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = BGShader.fsh; path = Shaders/BGShader.fsh; sourceTree = "<group>"; };
+		15CE859D16415E66005AE890 /* BGShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = BGShader.vsh; path = Shaders/BGShader.vsh; sourceTree = "<group>"; };
+		15CE85A116415F21005AE890 /* AR_EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AR_EAGLView.h; sourceTree = "<group>"; };
+		15CE85A216415F21005AE890 /* AR_EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AR_EAGLView.mm; sourceTree = "<group>"; };
+		15CE85A316415F21005AE890 /* ARParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARParentViewController.h; sourceTree = "<group>"; };
+		15CE85A416415F21005AE890 /* ARParentViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARParentViewController.mm; sourceTree = "<group>"; };
+		15CE85A516415F21005AE890 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		15CE85A616415F21005AE890 /* ARViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARViewController.mm; sourceTree = "<group>"; };
+		15CE85A716415F21005AE890 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		15CE85A816415F21005AE890 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		15CE85A916415F21005AE890 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		15CE85AA16415F21005AE890 /* OverlayViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OverlayViewController.mm; sourceTree = "<group>"; };
+		15CE85AB16415F21005AE890 /* QCARutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCARutils.h; sourceTree = "<group>"; };
+		15CE85AC16415F21005AE890 /* QCARutils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QCARutils.mm; sourceTree = "<group>"; };
+		15CE85AE16415F21005AE890 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		15CE85AF16415F21005AE890 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		15CE85B016415F21005AE890 /* ShaderUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderUtils.cpp; sourceTree = "<group>"; };
+		15CE85B116415F21005AE890 /* ShaderUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderUtils.h; sourceTree = "<group>"; };
+		15CE85B216415F21005AE890 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		15CE85B316415F21005AE890 /* Texture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Texture.mm; sourceTree = "<group>"; };
+		15CE865916416819005AE890 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		15DB4DFE1461868E00502685 /* BTAParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAParentViewController.h; sourceTree = "<group>"; };
+		15DF68ED14517A9A00120640 /* BgdTexture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BgdTexture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DF68F114517A9A00120640 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15DF68F314517A9A00120640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15DF68F514517A9A00120640 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15DF68F714517A9A00120640 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		15DF68F914517A9A00120640 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		15DF68FD14517A9A00120640 /* BackgroundTextureAccess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundTextureAccess-Info.plist"; sourceTree = "<group>"; };
+		15DF690114517A9A00120640 /* BackgroundTextureAccess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackgroundTextureAccess-Prefix.pch"; sourceTree = "<group>"; };
+		15DF690214517A9A00120640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15DF690414517A9A00120640 /* BackgroundTextureAccessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundTextureAccessAppDelegate.h; sourceTree = "<group>"; };
+		15DF690514517A9A00120640 /* BackgroundTextureAccessAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BackgroundTextureAccessAppDelegate.mm; sourceTree = "<group>"; };
+		15DF690E14517A9A00120640 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		15E92799161F3F6800D24BBE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		15F18A01145EEF520026C8D5 /* libQCAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQCAR.a; path = ../../build/lib/arm/libQCAR.a; sourceTree = SOURCE_ROOT; };
+		15F18A05145EF7CF0026C8D5 /* Tarmac.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tarmac.dat; sourceTree = "<group>"; };
+		15F18A06145EF7CF0026C8D5 /* Tarmac.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tarmac.xml; sourceTree = "<group>"; };
+		15F18A07145EF7CF0026C8D5 /* TextureTeapotRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTeapotRed.png; sourceTree = "<group>"; };
+		15F21A36145EE46C00C903EC /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		15F21A38145EE4CE00C903EC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		15F21A3A145EE4D800C903EC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		15F21A3C145EE4DF00C903EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		15F21A3E145EE4E700C903EC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		15F21A40145EE4F100C903EC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		15F21A42145EE58300C903EC /* Teapot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teapot.h; sourceTree = "<group>"; };
+		76D674E514D051AE003D8330 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		76D674E714D051D5003D8330 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		76D674EB14D051F0003D8330 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		AA144AED150680AE0024DAF1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DF68EA14517A9A00120640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA144AEE150680AE0024DAF1 /* CoreMotion.framework in Frameworks */,
+				15F18A02145EEF520026C8D5 /* libQCAR.a in Frameworks */,
+				15DF68F214517A9A00120640 /* UIKit.framework in Frameworks */,
+				15DF68F414517A9A00120640 /* Foundation.framework in Frameworks */,
+				15DF68F614517A9A00120640 /* CoreGraphics.framework in Frameworks */,
+				15DF68F814517A9A00120640 /* QuartzCore.framework in Frameworks */,
+				15DF68FA14517A9A00120640 /* OpenGLES.framework in Frameworks */,
+				15F21A39145EE4CE00C903EC /* CoreMedia.framework in Frameworks */,
+				15F21A3B145EE4D800C903EC /* SystemConfiguration.framework in Frameworks */,
+				15F21A3F145EE4E700C903EC /* CoreVideo.framework in Frameworks */,
+				15F21A41145EE4F100C903EC /* Security.framework in Frameworks */,
+				15F21A3D145EE4DF00C903EC /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CE859B16415E40005AE890 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				15CE859C16415E66005AE890 /* BGShader.fsh */,
+				15CE859D16415E66005AE890 /* BGShader.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		15CE85A016415F0A005AE890 /* ARCommon */ = {
+			isa = PBXGroup;
+			children = (
+				15CE865916416819005AE890 /* License.txt */,
+				15CE85A116415F21005AE890 /* AR_EAGLView.h */,
+				15CE85A216415F21005AE890 /* AR_EAGLView.mm */,
+				15CE85A316415F21005AE890 /* ARParentViewController.h */,
+				15CE85A416415F21005AE890 /* ARParentViewController.mm */,
+				15CE85A516415F21005AE890 /* ARViewController.h */,
+				15CE85A616415F21005AE890 /* ARViewController.mm */,
+				15CE85A716415F21005AE890 /* OverlayView.h */,
+				15CE85A816415F21005AE890 /* OverlayView.m */,
+				15CE85A916415F21005AE890 /* OverlayViewController.h */,
+				15CE85AA16415F21005AE890 /* OverlayViewController.mm */,
+				15CE85AB16415F21005AE890 /* QCARutils.h */,
+				15CE85AC16415F21005AE890 /* QCARutils.mm */,
+				15CE85AD16415F21005AE890 /* Shaders */,
+				15CE85B016415F21005AE890 /* ShaderUtils.cpp */,
+				15CE85B116415F21005AE890 /* ShaderUtils.h */,
+				15CE85B216415F21005AE890 /* Texture.h */,
+				15CE85B316415F21005AE890 /* Texture.mm */,
+			);
+			path = ARCommon;
+			sourceTree = "<group>";
+		};
+		15CE85AD16415F21005AE890 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				15CE85AE16415F21005AE890 /* Shader.fsh */,
+				15CE85AF16415F21005AE890 /* Shader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		15DF68E214517A9A00120640 = {
+			isa = PBXGroup;
+			children = (
+				15CE85A016415F0A005AE890 /* ARCommon */,
+				1526F6991638076D006408F8 /* Default-Landscape@2x~ipad.png */,
+				1526F69616380769006408F8 /* Default-Landscape~ipad.png */,
+				15E92799161F3F6800D24BBE /* Default-568h@2x.png */,
+				1519B6E116033D7100364066 /* app_icon_iPad@2x.png */,
+				1519B6DF16033D6E00364066 /* app_icon_iPhone@2x.png */,
+				154DE58916033A0900D18F92 /* app_icon_iPad.png */,
+				154DE584160339F000D18F92 /* app_icon_iPhone.png */,
+				76D674E714D051D5003D8330 /* Default@2x.png */,
+				76D674E514D051AE003D8330 /* Default.png */,
+				1519B6DC16033AF700364066 /* Default-Portrait@2x~ipad.png */,
+				76D674EB14D051F0003D8330 /* Default-Portrait~ipad.png */,
+				15DF68FB14517A9A00120640 /* BackgroundTextureAccess */,
+				15F18A03145EF7A10026C8D5 /* Resources */,
+				15DF68F014517A9A00120640 /* Frameworks */,
+				15DF68EE14517A9A00120640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15DF68EE14517A9A00120640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15DF68ED14517A9A00120640 /* BgdTexture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15DF68F014517A9A00120640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15F18A01145EEF520026C8D5 /* libQCAR.a */,
+				AA144AED150680AE0024DAF1 /* CoreMotion.framework */,
+				15DF68F114517A9A00120640 /* UIKit.framework */,
+				15DF68F314517A9A00120640 /* Foundation.framework */,
+				15DF68F514517A9A00120640 /* CoreGraphics.framework */,
+				15DF68F714517A9A00120640 /* QuartzCore.framework */,
+				15DF68F914517A9A00120640 /* OpenGLES.framework */,
+				15F21A40145EE4F100C903EC /* Security.framework */,
+				15F21A3E145EE4E700C903EC /* CoreVideo.framework */,
+				15F21A3C145EE4DF00C903EC /* AVFoundation.framework */,
+				15F21A3A145EE4D800C903EC /* SystemConfiguration.framework */,
+				15F21A38145EE4CE00C903EC /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15DF68FB14517A9A00120640 /* BackgroundTextureAccess */ = {
+			isa = PBXGroup;
+			children = (
+				15DF690414517A9A00120640 /* BackgroundTextureAccessAppDelegate.h */,
+				1513A41415F516B000EB307D /* BTAParentViewController.mm */,
+				15DF690514517A9A00120640 /* BackgroundTextureAccessAppDelegate.mm */,
+				15DF690E14517A9A00120640 /* EAGLView.h */,
+				15F21A36145EE46C00C903EC /* EAGLView.mm */,
+				15DB4DFE1461868E00502685 /* BTAParentViewController.h */,
+				15F21A42145EE58300C903EC /* Teapot.h */,
+				15CE859B16415E40005AE890 /* Shaders */,
+				15DF68FC14517A9A00120640 /* Supporting Files */,
+			);
+			path = BackgroundTextureAccess;
+			sourceTree = "<group>";
+		};
+		15DF68FC14517A9A00120640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15DF68FD14517A9A00120640 /* BackgroundTextureAccess-Info.plist */,
+				15DF690114517A9A00120640 /* BackgroundTextureAccess-Prefix.pch */,
+				15DF690214517A9A00120640 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15F18A03145EF7A10026C8D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15F18A04145EF7CF0026C8D5 /* assets */,
+			);
+			name = Resources;
+			path = BackgroundTextureAccess;
+			sourceTree = "<group>";
+		};
+		15F18A04145EF7CF0026C8D5 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				15F18A05145EF7CF0026C8D5 /* Tarmac.dat */,
+				15F18A06145EF7CF0026C8D5 /* Tarmac.xml */,
+				15F18A07145EF7CF0026C8D5 /* TextureTeapotRed.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15DF68EC14517A9A00120640 /* BgdTexture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DF691914517A9A00120640 /* Build configuration list for PBXNativeTarget "BgdTexture" */;
+			buildPhases = (
+				15DF68E914517A9A00120640 /* Sources */,
+				15DF68EA14517A9A00120640 /* Frameworks */,
+				15DF68EB14517A9A00120640 /* Resources */,
+				1821BF5F17E48A7F0035CDCE /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BgdTexture;
+			productName = BackgroundTextureAccess;
+			productReference = 15DF68ED14517A9A00120640 /* BgdTexture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15DF68E414517A9A00120640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 15DF68E714517A9A00120640 /* Build configuration list for PBXProject "BackgroundTextureAccess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15DF68E214517A9A00120640;
+			productRefGroup = 15DF68EE14517A9A00120640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DF68EC14517A9A00120640 /* BgdTexture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15DF68EB14517A9A00120640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F18A08145EF7CF0026C8D5 /* Tarmac.dat in Resources */,
+				15F18A09145EF7CF0026C8D5 /* Tarmac.xml in Resources */,
+				15F18A0A145EF7CF0026C8D5 /* TextureTeapotRed.png in Resources */,
+				76D674E614D051AE003D8330 /* Default.png in Resources */,
+				76D674EC14D051F0003D8330 /* Default-Portrait~ipad.png in Resources */,
+				154DE585160339F000D18F92 /* app_icon_iPhone.png in Resources */,
+				154DE58A16033A0900D18F92 /* app_icon_iPad.png in Resources */,
+				1519B6DD16033AF700364066 /* Default-Portrait@2x~ipad.png in Resources */,
+				1519B6DE16033BBD00364066 /* Default@2x.png in Resources */,
+				1519B6E016033D6E00364066 /* app_icon_iPhone@2x.png in Resources */,
+				1519B6E216033D7100364066 /* app_icon_iPad@2x.png in Resources */,
+				15E9279A161F3F6800D24BBE /* Default-568h@2x.png in Resources */,
+				1526F69716380769006408F8 /* Default-Landscape~ipad.png in Resources */,
+				1526F69A1638076D006408F8 /* Default-Landscape@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1821BF5F17E48A7F0035CDCE /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15DF68E914517A9A00120640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DF690314517A9A00120640 /* main.m in Sources */,
+				15DF690614517A9A00120640 /* BackgroundTextureAccessAppDelegate.mm in Sources */,
+				15F21A37145EE46C00C903EC /* EAGLView.mm in Sources */,
+				1513A41515F516B000EB307D /* BTAParentViewController.mm in Sources */,
+				15CE85B416415F21005AE890 /* AR_EAGLView.mm in Sources */,
+				15CE85B516415F21005AE890 /* ARParentViewController.mm in Sources */,
+				15CE85B616415F21005AE890 /* ARViewController.mm in Sources */,
+				15CE85B716415F21005AE890 /* OverlayView.m in Sources */,
+				15CE85B816415F21005AE890 /* OverlayViewController.mm in Sources */,
+				15CE85B916415F21005AE890 /* QCARutils.mm in Sources */,
+				15CE85BC16415F21005AE890 /* ShaderUtils.cpp in Sources */,
+				15CE85BD16415F21005AE890 /* Texture.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15DF691714517A9A00120640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15DF691814517A9A00120640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15DF691A14517A9A00120640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTextureAccess/BackgroundTextureAccess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"$(CONFIGURATION_FLAGS_DEFINE)",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = ../../build/include;
+				INFOPLIST_FILE = "BackgroundTextureAccess/BackgroundTextureAccess-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15DF691B14517A9A00120640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTextureAccess/BackgroundTextureAccess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					NS_BLOCK_ASSERTIONS,
+					"$(CONFIGURATION_FLAGS_DEFINE)",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = ../../build/include;
+				INFOPLIST_FILE = "BackgroundTextureAccess/BackgroundTextureAccess-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		15E87DE91462A31B004113B1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		15E87DEA1462A31B004113B1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTextureAccess/BackgroundTextureAccess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					NS_BLOCK_ASSERTIONS,
+					"$(CONFIGURATION_FLAGS_DEFINE)",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = ../../build/include;
+				INFOPLIST_FILE = "BackgroundTextureAccess/BackgroundTextureAccess-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15DF68E714517A9A00120640 /* Build configuration list for PBXProject "BackgroundTextureAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DF691714517A9A00120640 /* Debug */,
+				15DF691814517A9A00120640 /* Release */,
+				15E87DE91462A31B004113B1 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DF691914517A9A00120640 /* Build configuration list for PBXNativeTarget "BgdTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DF691A14517A9A00120640 /* Debug */,
+				15DF691B14517A9A00120640 /* Release */,
+				15E87DEA1462A31B004113B1 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15DF68E414517A9A00120640 /* Project object */;
+}
